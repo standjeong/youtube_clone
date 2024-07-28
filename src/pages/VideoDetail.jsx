@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import ChannelBanner from '../components/ChannelBanner';
 import RelatedVideos from '../components/RelatedVideos';
+import decode from '../utils/decode';
 
 export default function VideoDetail() {
   const { state: video } = useLocation();
@@ -15,7 +16,7 @@ export default function VideoDetail() {
           src={`https://www.youtube.com/embed/${video.id}`}
           title={title}
         ></iframe>
-        <h1 className='text-xl font-bold my-2'>{title}</h1>
+        <h1 className='text-xl font-bold my-2'>{decode(title)}</h1>
         <div className='flex items-center gap-1 my-3'>
           <ChannelBanner id={channelId} title={channelTitle} />
           <p className='font-medium'>{channelTitle}</p>

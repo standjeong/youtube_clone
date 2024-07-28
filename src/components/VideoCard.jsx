@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import timeAgo from '../utils/timeAgo';
+import decode from '../utils/decode';
 
 export default function VideoCard({ video, type }) {
   const navigate = useNavigate();
@@ -24,7 +25,7 @@ export default function VideoCard({ video, type }) {
               : 'font-semibold line-clamp-2 my-1'
           }
         >
-          {title}
+          {decode(title)}
         </h2>
         <p className='text-xs opacity-80'>{channelTitle}</p>
         <p className='text-xs opacity-80'>{timeAgo(publishedAt, 'ko')}</p>
