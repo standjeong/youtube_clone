@@ -5,8 +5,8 @@ import youtube from '../api/youtube';
 export default function Videos() {
   const { keyword } = useParams();
   const { data: videos } = useQuery({
-    queryKey: ['videos'],
-    queryFn: youtube,
+    queryKey: ['videos', keyword],
+    queryFn: () => youtube(keyword),
   });
 
   return (
