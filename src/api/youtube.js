@@ -18,3 +18,9 @@ export function searchChannelVideos(id) {
       data.items.map((item) => ({ ...item, id: item.id.videoId }))
     );
 }
+
+export function bannerUrl(id) {
+  return fetch('/mockdata/banner.json')
+    .then((res) => res.json())
+    .then((data) => data.items[0].snippet.thumbnails.default.url);
+}

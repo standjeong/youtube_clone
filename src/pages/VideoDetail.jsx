@@ -16,10 +16,9 @@ export default function VideoDetail() {
           title={title}
         ></iframe>
         <h1 className='text-xl font-bold my-2'>{title}</h1>
-        <div className='flex'>
-          {channelId}
-          <ChannelBanner id={channelId} />
-          <p>{channelTitle}</p>
+        <div className='flex items-center gap-1 my-3'>
+          <ChannelBanner id={channelId} title={channelTitle} />
+          <p className='font-medium'>{channelTitle}</p>
         </div>
         <pre className='whitespace-pre-wrap bg-neutral-100 rounded-lg p-4'>
           {description}
