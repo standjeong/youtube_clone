@@ -1,14 +1,15 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
 import ChannelBanner from '../components/ChannelBanner';
+import RelatedVideos from '../components/RelatedVideos';
 
 export default function VideoDetail() {
   const { state: video } = useLocation();
   const { title, channelTitle, channelId, description } = video.snippet;
 
   return (
-    <section className='mx-4 lg:flex'>
-      <article>
+    <section className='mx-4 lg:flex gap-4'>
+      <article className='lg:w-2/3 mb-6'>
         <iframe
           className='w-full aspect-video rounded-lg'
           src={`https://www.youtube.com/embed/${video.id}`}
@@ -25,7 +26,9 @@ export default function VideoDetail() {
         </pre>
       </article>
 
-      <aside>관련영상</aside>
+      <aside className='lg:w-1/3'>
+        <RelatedVideos id={channelId} />
+      </aside>
     </section>
   );
 }

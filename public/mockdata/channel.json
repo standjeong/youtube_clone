@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "I_8O-WElYKBflluqrtX3FcQahoo",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 7862,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QrvVQOcHgxB4P-xT0DXcpgUGxfY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5OwvrCEf75E"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-26T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) 2024 SBS 가요대전 Summer Dance Practice",
+        "description": "NewJeans (뉴진스) 2024 SBS 가요대전 Summer Dance Practice c 2024 ADOR. All Rights Reserved. Connect with NewJeans ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5OwvrCEf75E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5OwvrCEf75E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5OwvrCEf75E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-26T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "29JSlPGCKTFLdsasEssKlrtiIfc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y4Tr8LE5yV4"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-25T10:00:09Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) &#39;Right Now&#39; Dance Practice (Fix ver.)",
+        "description": "NewJeans (뉴진스) 'Right Now' Dance Practice (Fix ver.) c 2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y4Tr8LE5yV4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y4Tr8LE5yV4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y4Tr8LE5yV4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-25T10:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0iOTGCg2R5WP037o8qQWYMRL7ds",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4xer6EPtYdw"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-25T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) &#39;Right Now&#39; Dance Practice",
+        "description": "NewJeans (뉴진스) 'Right Now' Dance Practice c 2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4xer6EPtYdw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4xer6EPtYdw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4xer6EPtYdw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-25T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "styKQ_z9_2xET8wu7YZedbDX4CA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FKHqiV-9xLA"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-24T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) &#39;Supernatural&#39; Dance Practice",
+        "description": "NewJeans (뉴진스) 'Supernatural' Dance Practice c 2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FKHqiV-9xLA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FKHqiV-9xLA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FKHqiV-9xLA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-24T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xccPd2QW3bGBp1a1i8_XamgEawk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "W2M2TgKjMtQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-24T10:00:04Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) &#39;Supernatural&#39; Dance Practice (Handheld ver.)",
+        "description": "NewJeans (뉴진스) 'Supernatural' Dance Practice (Handheld ver.) c 2024 ADOR. All Rights Reserved. Connect with NewJeans ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W2M2TgKjMtQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W2M2TgKjMtQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W2M2TgKjMtQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-24T10:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i3Uow7UXhzQrSnyrFttW2y9Hoq0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1gUnvlQtcDY"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-24T10:00:09Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) &#39;Supernatural&#39; Dance Practice (Fix ver.)",
+        "description": "NewJeans (뉴진스) 'Supernatural' Dance Practice (Fix ver.) c 2024 ADOR. All Rights Reserved. Connect with NewJeans ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1gUnvlQtcDY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1gUnvlQtcDY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1gUnvlQtcDY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-24T10:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yCMur5O9nzclmRfCVpd8frmNchw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gNlR1hZ9_yE"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-23T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Light Jeans] LOTTE ZERO Behind 😋 | NewJeans",
+        "description": "[Light Jeans] LOTTE ZERO Behind | NewJeans c 2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gNlR1hZ9_yE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gNlR1hZ9_yE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gNlR1hZ9_yE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-23T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bCFwKStqJdsYA3lieMxuGiLUhwE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-D0iWskysyA"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-22T16:04:44Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "pass our 2nd Anniversary #NewJeans #뉴진스 #NewJeansDay #NewJeans_2nd_Anniversary",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-D0iWskysyA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-D0iWskysyA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-D0iWskysyA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-22T16:04:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OnYvcM7lxt3hQ_qFyaknLbYJ0Co",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dq8aMNGDGP8"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-22T12:00:40Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[NewJeans Day🎂] Happy 2nd Anniversary 🌃",
+        "description": "2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dq8aMNGDGP8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dq8aMNGDGP8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dq8aMNGDGP8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-22T12:00:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E1hOMZyWZkRi0iAw3pYl21HW6Fs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BRYL_vYTKiQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-22T12:00:35Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[NewJeans Day🎂] Bunnies Love NewJeans 🐰💙",
+        "description": "2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING https://phoning.onelink.me/KG15/n7452q87 OFFICIAL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BRYL_vYTKiQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BRYL_vYTKiQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BRYL_vYTKiQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-22T12:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LIvGPjoeG6ab0r91-Gqf6ixRIi0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C-jJrCh0qvY"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-22T11:53:03Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "oh i forgot... #NewJeans #뉴진스 #NewJeansDay #NewJeans_2nd_Anniversary",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C-jJrCh0qvY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C-jJrCh0qvY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C-jJrCh0qvY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-22T11:53:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xS50p4Vx_Jrsa9zKk6anbe4jBQY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7xOZolSZyGo"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-18T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Making Jeans] NewJeans (뉴진스) &#39;Supernatural&#39; &amp; &#39;Right Now&#39; Recording Behind",
+        "description": "[Making Jeans] NewJeans (뉴진스) 'Supernatural' & 'Right Now' Recording Behind c 2024 ADOR. All Rights Reserved. Connect ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7xOZolSZyGo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7xOZolSZyGo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7xOZolSZyGo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-18T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7J5IAlidQgTPUke14Dj8NWCTkoU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7yZz_eZC_vs"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-16T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Light Jeans] The Face Magazine Photoshoot Behind 🔦 | NewJeans",
+        "description": "[Light Jeans] The Face Magazine Photoshoot Behind | NewJeans Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7yZz_eZC_vs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7yZz_eZC_vs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7yZz_eZC_vs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-16T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FjULshfKYM-gRgD89iKxoIGodXY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VKvzm5abMss"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-15T11:00:33Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "it was trending when we filmed it... 🤓 #NewJeans #뉴진스 #Film_By_NewJeans #NewJeans_is_Everywhere",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VKvzm5abMss/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VKvzm5abMss/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VKvzm5abMss/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-15T11:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eVxoFI4FKhdyg40mmRBAOgT6kOE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BDrgARhgREY"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-14T07:21:11Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "오늘만 날인 것처럼🔮 #NewJeans #뉴진스 #NewJeans_Supernatural #NewJeans_RightNow #NewJeans_is_Everywhere",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BDrgARhgREY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BDrgARhgREY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BDrgARhgREY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-14T07:21:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MABiAuxcw-fTeTPDj7X8cGN7lcY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wHkXnfRnrmw"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-13T07:33:48Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "Back to Hype Boy💫💖 #NewJeans #뉴진스 #NewJeans_HypeBoy #NewJeans_is_Everywhere",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wHkXnfRnrmw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wHkXnfRnrmw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wHkXnfRnrmw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-13T07:33:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "37TKAqvMuzFriiBx_4J7B1HkaoI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jYxt1Deh-ok"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-12T09:42:56Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "얼른 잡아줘 Hold my hand, my hand✨ #NewJeans #뉴진스 #NewJeans_Supernatural #NewJeans_RightNow",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jYxt1Deh-ok/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jYxt1Deh-ok/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jYxt1Deh-ok/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-12T09:42:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DP58asmBDrmqI3S6hAtDdVYNdAE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NcQ_TFnlVs4"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-12T09:42:31Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "다가와봐 right now, right now 🪩 baby, I&#39;m not #NewJeans #뉴진스 #NewJeans_Supernatural #NewJeans_RightNow",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NcQ_TFnlVs4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NcQ_TFnlVs4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NcQ_TFnlVs4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-12T09:42:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NtYcuLveV2iTTMXKG_zda9DuwI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZopziBas10I"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-11T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Making Jeans] NewJeans (뉴진스) &#39;Supernatural&#39; Dance Practice Behind",
+        "description": "[Making Jeans] NewJeans (뉴진스) 'Supernatural' Dance Practice Behind c 2024 ADOR. All Rights Reserved. Connect with ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZopziBas10I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZopziBas10I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZopziBas10I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-11T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GrN_T1qjtpFUXJKfEqUA_-oG3g0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H-PeJ06fXZM"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-09T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Light Jeans] OLENS Behind 💐  | NewJeans",
+        "description": "[Light Jeans] OLENS Behind | NewJeans c 2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H-PeJ06fXZM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H-PeJ06fXZM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H-PeJ06fXZM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-09T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HP0puXURJCdgu-DMKlVwgxO-3S4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WOW0Qxk8RGE"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-05T11:00:35Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "Breaktime 🥁 at Tokyo Dome Bunnies Camp 2024 #NewJeans #뉴진스 #BunniesCamp #BunniesCamp2024TokyoDome",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WOW0Qxk8RGE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WOW0Qxk8RGE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WOW0Qxk8RGE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-05T11:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8CUD8LVKHNLm1N6C3jI-KMV1AG8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MkZRrg7JMwY"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-05T10:00:02Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Making Jeans] NewJeans (뉴진스) &#39;Supernatural&#39; MV Behind",
+        "description": "[Making Jeans] NewJeans (뉴진스) 'Supernatural' MV Behind c 2024 ADOR. All Rights Reserved. Connect with NewJeans ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MkZRrg7JMwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MkZRrg7JMwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MkZRrg7JMwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-05T10:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zw2_4FJbxKbUUdIvsi1UnN-Cqrc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "01lYZyfjaXc"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-04T11:00:00Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "Ditto in Tokyo Dome Bunnies Camp 2024🐰#NewJeans #뉴진스#BunniesCamp #BunniesCamp2024TokyoDome",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/01lYZyfjaXc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/01lYZyfjaXc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/01lYZyfjaXc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-04T11:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c7OJiHcrLo6Mu-coMix39ZQdiI8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZKELzUG99Iw"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-04T10:00:01Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "NewJeans (뉴진스) &#39;Right Now&#39; MV Reaction",
+        "description": "NewJeans (뉴진스) 'Right Now' MV Reaction c 2024 ADOR. All Rights Reserved. Connect with NewJeans PHONING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZKELzUG99Iw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZKELzUG99Iw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZKELzUG99Iw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-04T10:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rwdQ3yZ4DFvuV48S_L51QrLk7r8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DoHvCdl35qk"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-02T10:00:00Z",
+        "channelId": "UCMki_UkHb4qSc0qyEcOHHJw",
+        "title": "[Light Jeans] &#39;How Sweet&#39; &amp; &#39;Bubble Gum&#39; Music Show Behind EP.2 | NewJeans",
+        "description": "[Light Jeans] 'How Sweet' & 'Bubble Gum' Music Show Behind EP.2 | NewJeans c 2024 ADOR. All Rights Reserved. Connect ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DoHvCdl35qk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DoHvCdl35qk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DoHvCdl35qk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NewJeans",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-02T10:00:00Z"
+      }
+    }
+  ]
+}
