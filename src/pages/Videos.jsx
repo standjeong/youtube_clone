@@ -1,6 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import { useParams } from 'react-router-dom';
 import youtube from '../api/youtube';
+import VideoCard from '../components/VideoCard';
 
 export default function Videos() {
   const { keyword } = useParams();
@@ -15,7 +16,7 @@ export default function Videos() {
       {videos && (
         <ul>
           {videos.map((video) => (
-            <li>{video.snippet.title}</li>
+            <VideoCard video={video} />
           ))}
         </ul>
       )}
