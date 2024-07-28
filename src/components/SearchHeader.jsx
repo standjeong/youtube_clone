@@ -22,13 +22,16 @@ export default function SearchHeader() {
       </Link>
       <form className='flex w-full justify-center' onSubmit={handleSubmit}>
         <input
-          className='sm:w-3/5 max-w-md outline-0 border border-r-0 rounded-l-full px-3 py-1 text-lg'
+          className='sm:w-3/5 max-w-md outline-0 border-zinc-300 border border-r-0 rounded-l-full px-3 py-1 text-lg'
           placeholder='검색'
           type='text'
           value={input}
           onChange={(e) => setInput(e.target.value)}
         />
-        <button className='border rounded-r-full px-4' type='submit'>
+        <button
+          className='border-zinc-300 border bg-zinc-100 rounded-r-full px-4'
+          type='submit'
+        >
           <BsSearch />
         </button>
       </form>
