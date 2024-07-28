@@ -38,6 +38,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:b6c8aa0a447633f4844a9f32e1b3588ee93ff0f176c1842cfd6ea84652ab88110434c1795ec016a85f2d52e483ede3f07035197bca7e420a5cbfc41685e2eb73#npm:6.25.1"],\
           ["react-scripts", "virtual:b6c8aa0a447633f4844a9f32e1b3588ee93ff0f176c1842cfd6ea84652ab88110434c1795ec016a85f2d52e483ede3f07035197bca7e420a5cbfc41685e2eb73#npm:5.0.1"],\
           ["tailwindcss", "npm:3.4.7"],\
+          ["timeago.js", "npm:4.0.2"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\
@@ -17127,6 +17128,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["timeago.js", [\
+      ["npm:4.0.2", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/timeago.js-npm-4.0.2-e87d64f9a3-10c0.zip/node_modules/timeago.js/",\
+        "packageDependencies": [\
+          ["timeago.js", "npm:4.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tmpl", [\
       ["npm:1.0.5", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/tmpl-npm-1.0.5-d399ba37e2-10c0.zip/node_modules/tmpl/",\
@@ -18518,6 +18528,7 @@ const RAW_RUNTIME_STATE =
           ["react-router-dom", "virtual:b6c8aa0a447633f4844a9f32e1b3588ee93ff0f176c1842cfd6ea84652ab88110434c1795ec016a85f2d52e483ede3f07035197bca7e420a5cbfc41685e2eb73#npm:6.25.1"],\
           ["react-scripts", "virtual:b6c8aa0a447633f4844a9f32e1b3588ee93ff0f176c1842cfd6ea84652ab88110434c1795ec016a85f2d52e483ede3f07035197bca7e420a5cbfc41685e2eb73#npm:5.0.1"],\
           ["tailwindcss", "npm:3.4.7"],\
+          ["timeago.js", "npm:4.0.2"],\
           ["web-vitals", "npm:2.1.4"]\
         ],\
         "linkType": "SOFT"\

@@ -1,4 +1,5 @@
 import React from 'react';
+import timeAgo from '../utils/timeAgo';
 
 export default function VideoCard({ video }) {
   const { title, channelTitle, thumbnails, publishedAt } = video.snippet;
@@ -7,7 +8,7 @@ export default function VideoCard({ video }) {
       <img src={thumbnails.medium.url} alt={title} />
       <h2>{title}</h2>
       <p>{channelTitle}</p>
-      <p>{publishedAt}</p>
+      <p>{timeAgo(publishedAt, 'ko')}</p>
     </li>
   );
 }
