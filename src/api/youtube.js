@@ -22,7 +22,7 @@ export default class Youtube {
     try {
       const videoIds = await this.apiClient.videoIdsFromSearch({
         params: {
-          part: 'snippet',
+          // part: 'snippet',
           channelId: id,
           maxResults: 25,
           order: 'date',
@@ -35,21 +35,6 @@ export default class Youtube {
       return this.apiClient.mockData('/mockdata/channel.json', 'search');
     }
   }
-
-  // async searchChannelVideos(id) {
-  //   const url = 'search';
-  //   const params = {
-  //     params: {
-  //       part: 'snippet',
-  //       channelId: id,
-  //       maxResults: 25,
-  //       order: 'date',
-  //       type: 'video',
-  //     },
-  //   };
-  //   const mockUrl = '/mockdata/channel.json';
-  //   return this.apiClient.getVideosFromSearch(url, params, mockUrl);
-  // }
 
   async bannerUrl(id) {
     return this.apiClient
@@ -66,7 +51,7 @@ export default class Youtube {
     try {
       const videoIds = await this.apiClient.videoIdsFromSearch({
         params: {
-          part: 'snippet',
+          // part: 'snippet',
           q: keyword,
           maxResults: 25,
           type: 'video',
@@ -78,20 +63,6 @@ export default class Youtube {
       return this.apiClient.mockData('/mockdata/search.json', 'search');
     }
   }
-
-  // async #searchByKeyword(keyword) {
-  //   const url = 'search';
-  //   const params = {
-  //     params: {
-  //       part: 'snippet',
-  //       q: keyword,
-  //       maxResults: 25,
-  //       type: 'video',
-  //     },
-  //   };
-  //   const mockUrl = '/mockdata/search.json';
-  //   return this.apiClient.getVideosFromSearch(url, params, mockUrl);
-  // }
 
   async #popularVideos() {
     try {
@@ -110,17 +81,4 @@ export default class Youtube {
       return this.apiClient.mockData('/mockdata/popular.json');
     }
   }
-
-  // async #popularVideos() {
-  //   return this.apiClient
-  //     .videos({
-  //       params: {
-  //         part: 'snippet',
-  //         chart: 'mostPopular',
-  //         regionCode: 'KR',
-  //         maxResults: 25,
-  //       },
-  //     })
-  //     .then((res) => res.data.items);
-  // }
 }
