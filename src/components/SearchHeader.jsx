@@ -15,7 +15,7 @@ export default function SearchHeader() {
   useEffect(() => setInput(keyword || ''), [keyword]);
 
   return (
-    <header className='w-full flex py-4 px-4'>
+    <header className='w-full flex py-4 px-6'>
       <Link to='/' className='flex items-center'>
         <BsYoutube className='text-brand text-3xl mr-1' />
         <h1 className='text-3xl font-medium tracking-tighter pb-1'>Youtube</h1>
