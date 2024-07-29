@@ -7,6 +7,7 @@ export default function VideoCard({ video, type }) {
   const navigate = useNavigate();
   const { title, channelTitle, thumbnails, publishedAt } = video.snippet;
   const isRelated = type;
+
   return (
     <li
       className={isRelated ? 'flex cursor-pointer mb-2' : 'mb-4 cursor-pointer'}

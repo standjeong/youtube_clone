@@ -1,12 +1,13 @@
 import React from 'react';
 import { useQuery } from '@tanstack/react-query';
-import { searchChannelVideos } from '../api/youtube';
 import VideoCard from './VideoCard';
+import { useYoutubeAPi } from '../context/YoutubeApiContext';
 
 export default function RelatedVideos({ id }) {
+  const youtube = useYoutubeAPi();
   const { data: videos } = useQuery({
     queryKey: ['related', id],
-    queryFn: () => searchChannelVideos(id),
+    queryFn: () => youtube.searchChannelVideos(id),
   });
   //   console.log(videos);
   return (
