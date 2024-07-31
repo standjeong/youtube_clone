@@ -9,6 +9,7 @@ export default function Videos() {
   const { data: videos } = useQuery({
     queryKey: ['videos', keyword],
     queryFn: () => youtube.search(keyword),
+    staleTime: 1000 * 60 * 3,
   });
 
   return (

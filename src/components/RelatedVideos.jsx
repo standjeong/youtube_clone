@@ -8,8 +8,8 @@ export default function RelatedVideos({ id }) {
   const { data: videos } = useQuery({
     queryKey: ['related', id],
     queryFn: () => youtube.searchChannelVideos(id),
+    staleTime: 1000 * 60 * 3,
   });
-  //   console.log(videos);
   return (
     <>
       {videos && (

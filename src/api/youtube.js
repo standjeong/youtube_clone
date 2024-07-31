@@ -22,7 +22,6 @@ export default class Youtube {
     try {
       const videoIds = await this.apiClient.videoIdsFromSearch({
         params: {
-          // part: 'snippet',
           channelId: id,
           maxResults: 25,
           order: 'date',
@@ -31,7 +30,7 @@ export default class Youtube {
       });
       return await this.videosByVideoIds(videoIds);
     } catch (error) {
-      console.error(error, 'searchChannelVideos에서 발생');
+      // console.error(error, 'searchChannelVideos에서 발생');
       return this.apiClient.mockData('/mockdata/channel.json', 'search');
     }
   }
@@ -51,7 +50,6 @@ export default class Youtube {
     try {
       const videoIds = await this.apiClient.videoIdsFromSearch({
         params: {
-          // part: 'snippet',
           q: keyword,
           maxResults: 25,
           type: 'video',
@@ -59,7 +57,7 @@ export default class Youtube {
       });
       return await this.videosByVideoIds(videoIds);
     } catch (error) {
-      console.error(error, 'searchByKeyword에서 발생');
+      // console.error(error, 'searchByKeyword에서 발생');
       return this.apiClient.mockData('/mockdata/search.json', 'search');
     }
   }
@@ -77,7 +75,7 @@ export default class Youtube {
         })
         .then((res) => res.data.items);
     } catch (error) {
-      console.error('인기동영상 가져올때 에러', error);
+      // console.error('인기동영상 가져올때 에러', error);
       return this.apiClient.mockData('/mockdata/popular.json');
     }
   }

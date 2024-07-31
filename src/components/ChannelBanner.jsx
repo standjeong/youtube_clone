@@ -11,6 +11,7 @@ export default function ChannelBanner({ id, title }) {
   } = useQuery({
     queryKey: ['bannerUrl', id],
     queryFn: () => youtube.bannerUrl(id),
+    staleTime: 1000 * 60 * 5,
   });
 
   if (isLoading || error) {

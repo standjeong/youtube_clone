@@ -7,7 +7,6 @@ export default function VideoDetail() {
   const { state: video } = useLocation();
   const { title, channelTitle, channelId, description } = video.snippet;
 
-  //keyword가 있을 때의 로직과 없을 때의 로직 구분하기. --params를 통해 키워드를 받아와서......~?
   return (
     <section className='mx-6 lg:flex gap-4'>
       <article className='lg:w-2/3 mb-6'>
