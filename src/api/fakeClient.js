@@ -14,7 +14,16 @@ export default class FakeClient {
   }
 
   async #popularVideos() {
-    return axios.get('/mockdata/popular.json').then((res) => res.data.items);
+    // return axios.get('/mockdata/popular.json').then((res) => res.data.items);
+    //로딩스핀테스트
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        axios
+          .get('/mockdata/search.json')
+          .then((res) => resolve(res.data.items))
+          .catch((error) => reject(error));
+      }, 5000);
+    });
   }
 
   async searchChannelVideos() {
