@@ -27,7 +27,7 @@ export default class YoutubeClient {
     const videoIds = responseData.items
       .map((item) => item.id.videoId)
       .join(',');
-    return videoIds;
+    return { videoIds: videoIds, nextPageToken: responseData.nextPageToken };
   }
 
   async mockData(url, type) {
