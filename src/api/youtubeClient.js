@@ -13,7 +13,7 @@ export default class YoutubeClient {
   }
 
   async videos(params) {
-    return this.httpClient.get('videos', params);
+    return await this.httpClient.get('videos', params);
   }
 
   async channel(params) {
@@ -30,16 +30,23 @@ export default class YoutubeClient {
     return { videoIds: videoIds, nextPageToken: responseData.nextPageToken };
   }
 
-  async mockData(url, type) {
-    if (type === 'search') {
-      return fetch(url)
-        .then((res) => res.json())
-        .then((data) =>
-          data.items.map((item) => ({ ...item, id: item.id.videoId }))
-        );
+  async handleError(error, url, type) {
+    const statusCode = error.response.status;
+
+    if (statusCode === 400) {
+      console.log('API 요청 횟수를 제한합니다');
+      return { items: [] };
+    } else if (statusCode === 403) {
+      console.log('API 사용량 초과로 mock data를 가져옵니다');
+      const data = await axios.get(url).then((res) => res.data);
+      if (type === 'search') {
+        return {
+          items: data.items.map((item) => ({ ...item, id: item.id.videoId })),
+        };
+      }
+      return {
+        items: data.items,
+      };
     }
-    return fetch(url)
-      .then((res) => res.json())
-      .then((data) => data.items);
   }
 }

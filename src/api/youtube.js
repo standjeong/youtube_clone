@@ -3,19 +3,10 @@ export default class Youtube {
     this.apiClient = apiClient;
   }
 
-  async search(keyword) {
-    return keyword ? this.#searchByKeyword(keyword) : this.#popularVideos();
-  }
-
-  async videosByVideoIds(videoIds) {
-    return this.apiClient
-      .videos({
-        params: {
-          part: 'snippet',
-          id: videoIds,
-        },
-      })
-      .then((res) => res.data.items);
+  async search(keyword, pageToken) {
+    return keyword
+      ? this.#searchByKeyword(keyword, pageToken)
+      : this.#popularVideos(pageToken);
   }
 
   async searchChannelVideos(id) {
@@ -23,15 +14,25 @@ export default class Youtube {
       const { videoIds } = await this.apiClient.videoIdsFromSearch({
         params: {
           channelId: id,
-          maxResults: 20,
+          maxResults: 25,
           order: 'date',
           type: 'video',
         },
       });
-      return await this.videosByVideoIds(videoIds);
+      const data = await this.apiClient
+        .videos({
+          params: {
+            part: 'snippet',
+            id: videoIds,
+          },
+        })
+        .then((res) => res.data);
+      return {
+        items: data.items,
+      };
     } catch (error) {
-      // console.error(error, 'searchChannelVideos에서 발생');
-      return this.apiClient.mockData('/mockdata/channel.json', 'search');
+      const mockData = '/mockdata/channel.json';
+      return await this.apiClient.handleError(error, mockData, 'search');
     }
   }
 
@@ -52,12 +53,11 @@ export default class Youtube {
         await this.apiClient.videoIdsFromSearch({
           params: {
             q: keyword,
-            maxResults: 20,
+            maxResults: 25,
             type: 'video',
             pageToken: pageToken,
           },
         });
-
       const data = await this.apiClient
         .videos({
           params: {
@@ -66,16 +66,13 @@ export default class Youtube {
           },
         })
         .then((res) => res.data);
-      console.log(data);
-
       return {
         items: data.items,
         nextPageToken: nextPageToken,
       };
-      // return await this.videosByVideoIds(videoIds, pageToken);
     } catch (error) {
-      // console.error(error, 'searchByKeyword에서 발생');
-      return this.apiClient.mockData('/mockdata/search.json', 'search');
+      const mockData = '/mockdata/search.json';
+      return await this.apiClient.handleError(error, mockData, 'search');
     }
   }
 
@@ -87,18 +84,19 @@ export default class Youtube {
             part: 'snippet',
             chart: 'mostPopular',
             regionCode: 'KR',
-            maxResults: 20,
+            maxResults: 25,
             pageToken: pageToken,
           },
         })
         .then((res) => res.data);
+      console.log('#popularVideos의 리턴문 직전(API응답데이터)', data);
       return {
         items: data.items,
         nextPageToken: data.nextPageToken,
       };
     } catch (error) {
-      // console.error('인기동영상 가져올때 에러', error);
-      return this.apiClient.mockData('/mockdata/popular.json');
+      const mockData = '/mockdata/popular.json';
+      return await this.apiClient.handleError(error, mockData, '최신 영상');
     }
   }
 }

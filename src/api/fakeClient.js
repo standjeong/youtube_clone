@@ -51,7 +51,7 @@ export default class FakeClient {
           part: 'snippet',
           chart: 'mostPopular',
           regionCode: 'KR',
-          maxResults: 6,
+          maxResults: 5,
           pageToken: pageToken,
         },
       })
