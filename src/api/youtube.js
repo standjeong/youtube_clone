@@ -89,7 +89,6 @@ export default class Youtube {
           },
         })
         .then((res) => res.data);
-      console.log('#popularVideos의 리턴문 직전(API응답데이터)', data);
       return {
         items: data.items,
         nextPageToken: data.nextPageToken,

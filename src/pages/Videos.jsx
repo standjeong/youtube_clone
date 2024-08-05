@@ -15,7 +15,7 @@ export default function Videos() {
       queryFn: ({ pageParam = '' }) => youtube.search(keyword, pageParam),
       getNextPageParam: (lastPage, allPages) => {
         const nextPage = allPages.length + 1;
-        return nextPage <= 3 ? lastPage.nextPageToken : false;
+        return nextPage <= 5 ? lastPage.nextPageToken : false;
       },
       staleTime: 1000 * 60 * 3,
     });
@@ -43,9 +43,16 @@ export default function Videos() {
     };
   }, [fetchNextPage, hasNextPage]);
 
+  const has403Error = data?.pages.some((page) => page.error?.status === 403);
+
   return (
     <section className='mx-6'>
       {isLoading && <LoadingSpinner />}
+      {has403Error && (
+        <p className='text-center bg-gray-400 py-1 mb-3 text-white font-semibold'>
+          Youtube API사용량 초과로 Mock Data를 가져옵니다.
+        </p>
+      )}
       <ul className='sm:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3'>
         {data?.pages.map((page) => {
           return page.items.map((video) => (

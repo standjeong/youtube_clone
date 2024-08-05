@@ -35,17 +35,21 @@ export default class YoutubeClient {
 
     if (statusCode === 400) {
       console.log('API 요청 횟수를 제한합니다');
-      return { items: [] };
+      return { items: [], nextPageToken: null, error: { status: 400 } };
     } else if (statusCode === 403) {
       console.log('API 사용량 초과로 mock data를 가져옵니다');
       const data = await axios.get(url).then((res) => res.data);
       if (type === 'search') {
         return {
           items: data.items.map((item) => ({ ...item, id: item.id.videoId })),
+          nextPageToken: null,
+          error: { status: 403 },
         };
       }
       return {
         items: data.items,
+        nextPageToken: null,
+        error: { status: 403 },
       };
     }
   }
