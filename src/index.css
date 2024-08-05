@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .mask-image-gradient {
+    -webkit-mask-image: linear-gradient(
+      -75deg,
+      #e66464 30%,
+      #9198e535 10%,
+      #ebf8e1 70%
+    );
+  }
+  .mask-size-large {
+    -webkit-mask-size: 200%;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

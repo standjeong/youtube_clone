@@ -15,7 +15,7 @@ export default function Videos() {
       queryFn: ({ pageParam = '' }) => youtube.search(keyword, pageParam),
       getNextPageParam: (lastPage, allPages) => {
         const nextPage = allPages.length + 1;
-        return nextPage <= 5 ? lastPage.nextPageToken : false;
+        return nextPage <= 4 ? lastPage.nextPageToken : false;
       },
       staleTime: 1000 * 60 * 3,
     });
@@ -49,7 +49,7 @@ export default function Videos() {
     <section className='mx-6'>
       {isLoading && <LoadingSpinner />}
       {has403Error && (
-        <p className='text-center bg-gray-400 py-1 mb-3 text-white font-semibold'>
+        <p className='text-center bg-gray-400 py-1 mb-3 text-white font-semibold mask-image-gradient mask-size-large animate-shine'>
           Youtube API사용량 초과로 Mock Data를 가져옵니다.
         </p>
       )}
