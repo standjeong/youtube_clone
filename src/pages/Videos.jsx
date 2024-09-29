@@ -44,6 +44,7 @@ export default function Videos() {
   }, [fetchNextPage, hasNextPage]);
 
   const has403Error = data?.pages.some((page) => page.error?.status === 403);
+  const has400Error = data?.pages.some((page) => page.error?.status === 400);
 
   return (
     <section className='mx-6'>
@@ -60,6 +61,11 @@ export default function Videos() {
           ));
         })}
       </ul>
+      {has400Error && (
+        <p className='text-center bg-gray-400 py-1 mb-3 text-white font-semibold mask-image-gradient mask-size-large animate-shine'>
+          과도한 API 요청을 막기 위해 무한 스크롤을 제한합니다.
+        </p>
+      )}
       <div className='w-1 h-1' ref={observerElem}>
         {isFetchingNextPage && <LoadingSpinner />}
       </div>
