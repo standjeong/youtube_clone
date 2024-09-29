@@ -1,11 +1,18 @@
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 import ChannelBanner from '../components/ChannelBanner';
 import RelatedVideos from '../components/RelatedVideos';
 import decode from '../utils/decode';
+import { useEffect } from 'react';
 
 export default function VideoDetail() {
   const { state: video } = useLocation();
   const { title, channelTitle, channelId, description } = video.snippet;
+
+  const { videoId } = useParams();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [videoId]);
 
   return (
     <section className='mx-6 lg:flex gap-4'>
